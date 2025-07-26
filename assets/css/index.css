@@ -1,8 +1,11 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
 }
 
 
@@ -214,7 +217,7 @@ s {
 }
 
 .showmore {
-    position: absolute;
+   
     margin: 2rem;
     width: 245px;
     height: 48px;
@@ -297,65 +300,58 @@ s {
 
 
 
-footer{
-display: flex;
-    width: 1440px;
-    height: 505px;
-    top: 4330px;
-}
-.footertext{
-    position: absolute;
-    width: 1133.01;
-    height: 312px;
-    top: 48px;
-    left: 100px;
-}
-.footertext2{
-    position: absolute;
-    width: 710px;
-    height: 312px;
-    top: 48px;
-    left: 523.01px;
-    gap: 2rem;
-}
-footer{
+
+   
+
+
+
+footer {
     display: inline-block;
     width: 100%;
     height: 600px;
+     top: 4330px;
 }
-.leftside{
+
+.leftside {
     display: inline-block;
     width: 40%;
     height: 90%;
     padding-left: 5rem;
 }
-.leftside h1{
+
+.leftside h1 {
     margin-bottom: 10rem;
     padding: 0;
     font-size: 25px;
     font-weight: 900;
 }
-.leftside h5{
+
+.leftside h5 {
     margin: 0;
     padding: 0;
     color: gray;
 }
-.rightside{
+
+.rightside {
     float: right;
     display: inline-block;
     width: 58%;
     height: 90%;
 }
-.rightside table{
-   border-collapse: separate;
-   border-spacing: 8rem 5rem;
-   font-size: 15px;
+
+.rightside table {
+    border-collapse: separate;
+    border-spacing: 8rem 5rem;
+    font-size: 15px;
 
 }
-.firsttr{
+
+.firsttr {
     color: gray;
 }
-.endfooter{
+
+.endfooter {
     font-size: 15px;
     padding-left: 5rem;
 }
+
